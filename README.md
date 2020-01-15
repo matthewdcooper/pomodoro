@@ -2,7 +2,7 @@
 
 > A bash script that functions as a Pomodoro timer.
 
-![notification examples](/notifaction-examples.png?raw=true)
+![notification examples](/example-notifications.png?raw=true)
 
 The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) (named after a tomato-shaped timer) is a productivity method that involves deciding on a particular task and then working on it in a sequence of short intervals separated by small breaks. The main advantages I've found are that a) it focuses your time on a specific task and b) the regular short breaks help you to maintain concentration for a longer period overall than you might otherwise have done.
 
