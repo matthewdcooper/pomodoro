@@ -15,11 +15,13 @@ function pomo() {
 		now=$(date +%H:%M)
 		fin=$(date -d "$now today + $interval_length seconds" +%H:%M)
 		notify-send -i user-available "interval $i $now - $fin";
+		echo "interval $i $now - $fin";
 		sleep $(( $interval_length ));
 
 		now=$(date +%H:%M)
-		fin=$(date -d "$now today + $interval_length seconds" +%H:%M)
+		fin=$(date -d "$now today + $break_length seconds" +%H:%M)
 		notify-send -i user-busy "break $now - $fin";
+		echo "break $now - $fin";
 		sleep $(( $break_length ));
 	done;
 }
