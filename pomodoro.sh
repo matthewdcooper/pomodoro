@@ -10,7 +10,7 @@ if  [ $# -eq 2 ]; then
 fi
 
 function pomo() {
-	for i in {1..2}
+	for i in {1..4}
 	do
 		now=$(date +%H:%M)
 		fin=$(date -d "$now today + $interval_length seconds" +%H:%M)
